@@ -34,7 +34,7 @@
 		width: 100%;
 		margin-bottom: auto;
 	}
-	#sideNav .navnar-collapse .navbar-nav{
+	#sideNav .navbar-collapse .navbar-nav{
 		flex-direction: column;
 		width: 100%;
 	}

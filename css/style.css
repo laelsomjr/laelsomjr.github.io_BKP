@@ -1,6 +1,23 @@
+
 #sideNav .navbar-nav .nav-item .nav-link{
 	font-weight: 600;
 	text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+h1{
+	font-size: 6rem;
+	line-height: 5.5rem;
 }
 @media (min-width: 992px){
 	body{
@@ -43,5 +60,14 @@
 	}
 	#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{
 		display: block;
+	}
+	section.resume-section{
+		padding-top: 3rem!important;
+		padding-bottom: 3rem!important;
+	}
+}
+@media(min-width:768px){
+	section.resume-section{
+		min-height: 100vh;
 	}
 }
